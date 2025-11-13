@@ -9,7 +9,7 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 1 if sys.platform == 'darwin' else 2
 RATE = 22050
-RECORD_SECONDS = 20
+RECORD_SECONDS = 5
 
 def record_voice():
     timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
